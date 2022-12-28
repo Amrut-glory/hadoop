@@ -1,0 +1,10 @@
+# in hdfs file syste / is the root
+
+# command to check the files inside root hdfs directory
+hadoop fs -ls /
+
+# command to create directory in hdfs
+hadoop fs -mkdir /directory_name
+
+# copy data from local file to hdfs
+hadoop fs -put 
